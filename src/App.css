@@ -1,38 +1,87 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --primary-color:#ad6343;
+  --secondary-color:#fcf6f2;
+  --dark-prime-color:#ece5df;
+}
+
+
+*{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4px;
+}
+
+.primary-bg{
+  background-color: var(--primary-color);
+}
+.secondary-bg{
+  background-color: var(--secondary-color);
+}
+.prime-color-bg{
+  background-color: var(--dark-prime-color);
+}
+
+.fw-1{
+  font-weight: 100 !important;
+}
+.fw-2{
+  font-weight: 200 !important;
+}
+.fw-3{
+  font-weight: 300 !important;
+}
+.fw-4{
+  font-weight: 400 !important;
+}
+.fw-5{
+  font-weight: 500 !important;
+}
+.fw-6{
+  font-weight: 600 !important;
+}
+.fw-7{
+  font-weight: 700 !important;
+}
+.fw-8{
+  font-weight: 800 !important;
+}
+.fw-9{
+  font-weight: 900 !important;
+}
+
+.btn-main{
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: var(--primary-color);
   text-align: center;
+  text-decoration: none;
+}
+.btn-main:hover{
+  opacity: 0.8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.thorana1 img{
+  width: 200px;
+  position: fixed;
+  transform: rotate(-45deg);
+  left: -30px;
+  top: 30px;
+  z-index: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thorana2 img{
+  width: 200px;
+  position: fixed;
+  transform: rotate(45deg);
+  right: -30px;
+  top: 30px;
+  z-index: 100;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-main{
+  color:var(--primary-color)
 }

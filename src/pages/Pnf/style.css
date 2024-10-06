@@ -1,0 +1,9 @@
+.pnf{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pnf-image img{
+    width: 200px;
+}

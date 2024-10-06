@@ -1,0 +1,12 @@
+.categorie img, .categorie video{
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+.categorie img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.categorie-card{
+    overflow: hidden;
+}
