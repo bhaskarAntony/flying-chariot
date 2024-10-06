@@ -50,7 +50,7 @@ function Videos() {
                                 ref={el => videoRefs.current[index] = el}
                                 src={item}
                                 loop
-                                muted
+                                
                             />
                             <div
                                 className="play-pause-overlay"
