@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
         <div className="top text-center">
-            <p className="fw-bold prime-color-bg m-0 p-2">Grand Opening on Sunday <CountDown/></p>
+            <p className="fw-bold prime-color-bg m-0 p-2">Grand Opening on Sunday</p>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light p-3 border-bottom ">
   <div class="container-fluid">
