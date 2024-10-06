@@ -19,7 +19,7 @@ const CountDown = () => {
     );
 
     // Set time to 12:00 PM
-    nextSunday.setHours(12, 0, 0, 0);
+    nextSunday.setHours(13, 0, 0, 0);
 
     // If today is Sunday and it's past 12:00 PM, move to next Sunday
     if (now.getDay() === 0 && now.getTime() >= nextSunday.getTime()) {
