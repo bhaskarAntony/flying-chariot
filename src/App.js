@@ -11,7 +11,7 @@ import Shop from './pages/shop/Shop'
 function App() {
   return (
     <div>
-      <Blur/>
+      {/* <Blur/> */}
       <div className='thorana1'>
         <img src='https://img1.picmix.com/output/stamp/normal/4/2/7/9/1929724_53e34.gif'/>
       </div>

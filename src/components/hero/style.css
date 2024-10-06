@@ -1,3 +1,4 @@
 .hero{
-   
+    background: url(https://media3.giphy.com/media/Wan35pvpWhzPWayHnM/giphy.gif?cid=6c09b952vshu64ikeuk8vucouj0yi8g9ae9ssbd80m17pgye&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s) no-repeat top left, url(https://media3.giphy.com/media/Wan35pvpWhzPWayHnM/giphy.gif?cid=6c09b952vshu64ikeuk8vucouj0yi8g9ae9ssbd80m17pgye&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s) no-repeat right ;
+    min-height: 60vh;
 }
